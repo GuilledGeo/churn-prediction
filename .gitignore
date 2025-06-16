@@ -20,3 +20,6 @@ __pycache__/
 # System files
 .DS_Store
 Thumbs.db
+
+data/processed/*.csv
+data/processed/df_churn_limpio_model2.csv
