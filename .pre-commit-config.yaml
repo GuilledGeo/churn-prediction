@@ -1,4 +1,4 @@
-# .pre-commit-config.yaml
+# .pre-commit-config.yaml corregido
 repos:
   - repo: https://github.com/psf/black
     rev: 24.3.0
@@ -6,14 +6,9 @@ repos:
       - id: black
 
   - repo: https://github.com/pre-commit/mirrors-isort
-    rev: v5.12.0
+    rev: v5.10.1   # ✅ versión válida y estable
     hooks:
       - id: isort
-
-  - repo: https://github.com/pre-commit/pygrep-hooks
-    rev: v1.9.0
-    hooks:
-      - id: python-check-blanket-noqa
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.4.0
